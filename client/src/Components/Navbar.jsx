@@ -12,7 +12,7 @@ const Navbar = () => {
         <>
         {visibility?
         <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white">
-            <h1 className='w-full text-3xl font-bold text-[#00df9a]'><Link to="/">VoteBlocks</Link></h1>
+            <h1 className='w-full text-3xl font-bold text-[#00df9a]'><Link to="/">CipherVote</Link></h1>
             <ul className="hidden md:flex">
                 <li className="p-4"><Link to="/">Home</Link></li>
                 <li className="p-4"><Link to="/register">Register</Link></li>
